@@ -8,18 +8,16 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        Групповой проект по мат. моделировнию
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+        Наша команда занимается моделированием **электрического пробоя**. Это необходимо для разработки надежных изоляционных материалов и систем защиты электрооборудования.
   - block: collection
     content:
-      title: Latest News
+      title: Последние новости
       subtitle:
       text:
       count: 5
@@ -35,30 +33,10 @@ sections:
     design:
       view: card
       columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
 
   - block: collection
     content:
-      title: Latest Preprints
+      title: Публикации
       text: ""
       count: 5
       filters:
